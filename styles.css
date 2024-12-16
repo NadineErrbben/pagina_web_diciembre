@@ -1,0 +1,108 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9c9c9c;
+}
+
+header, main {
+    width: 800px; /* Ancho máximo para el header y main */
+}
+
+/* Header Principal */
+.header-grande {
+    background-color: #444;
+    color: white;
+    padding: 3rem 2rem; /* Espaciado interno */
+    height: 50vh;
+    display: flex;
+    align-items: flex-end; /* Alinear hacia arriba */
+    justify-content: flex-start; /* Alinear hacia la izquierda */
+    transition: all 0.3s ease;
+}
+
+.contenido-header {
+    text-align: left;
+    max-width: 430px;
+}
+
+.contenido-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contenido-header p {
+    margin-bottom: 1rem;
+}
+
+.botones button {
+    background-color: #f7b733;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botones button:hover {
+    background-color: #f5a623;
+}
+
+/* Header Reducido */
+.header-pequeño {
+    background-color: #444;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    display: none; /* Oculto por defecto */
+    z-index: 1000;
+}
+
+.header-pequeño .botones {
+    display: flex;
+    justify-content: center;
+}
+
+.header-pequeño button {
+    background-color: #f7b733;
+    color: #333;
+    border: none;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-pequeño button:hover {
+    background-color: #f5a623;
+}
+
+/* Secciones del Main */
+.seccion {
+    height: 100vh;
+    width: 100%;
+}
+
+#seccion1 { background-color: #ffe4c4; }
+#seccion2 { background-color: #f3e5d8; }
+#seccion3 { background-color: #75462e; }
+#seccion4 { background-color: #eed3ba; }
+#seccion5 { background-color: #e4c7b1; }
+#seccion6 { background-color: #ab5f2d; }
+#seccion7 { background-color: #d0b3a1; }
