@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Estilos generales */
 * {
     margin: 0;
@@ -107,7 +106,6 @@ header, main {
 #seccion5 { background-color: #e4c7b1; }
 #seccion6 { background-color: #ab5f2d; }
 #seccion7 { background-color: #d0b3a1; }
-=======
 /* Estilos generales */
 * {
     margin: 0;
@@ -209,11 +207,10 @@ header, main {
     width: 100%;
 }
 
-#seccion1 { background-color: #ffe4c4; }
+#seccion1 { background-color: #5437a4; }
 #seccion2 { background-color: #f3e5d8; }
 #seccion3 { background-color: #75462e; }
 #seccion4 { background-color: #eed3ba; }
 #seccion5 { background-color: #e4c7b1; }
 #seccion6 { background-color: #ab5f2d; }
 #seccion7 { background-color: #d0b3a1; }
->>>>>>> 7e330e83c26a8fa04f933183efcae5775b0b636d
